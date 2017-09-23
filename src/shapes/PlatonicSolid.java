@@ -22,6 +22,33 @@ public class PlatonicSolid extends Shape3D {
     }
 
     /**
+     * Return the number of edge(s) of this PlatonicSolid.
+     *
+     * @return double
+     */
+    public double getEdge() {
+        return this.edge;
+    }
+
+    /**
+     * Return the number of face(s) of this PlatonicSolid.
+     *
+     * @return double
+     */
+    public double getFace() {
+        return this.face;
+    }
+
+    /**
+     * Return the length of each edge of this PlatonicSolid.
+     *
+     * @return double
+     */
+    public double getLength() {
+        return this.length;
+    }
+
+    /**
      * Return the surface area of PlatonicSolid.
      * Surface area = (length/2)^2 * F * edge * cot(pi/edge)
      * F = (4 * face) / (4 - (edge - 2) * (face - 2))

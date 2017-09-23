@@ -19,6 +19,24 @@ public class ConvexRegularPolygon extends Shape2D {
     }
 
     /**
+     * Return the number of edge(s) of this ConvexRegularPolygon.
+     *
+     * @return double
+     */
+    public double getEdge() {
+        return this.edge;
+    }
+
+    /**
+     * Return the length of each edge of this ConvexRegularPolygon.
+     *
+     * @return double
+     */
+    public double getLength() {
+        return this.length;
+    }
+
+    /**
      * Return the area of ConvexRegularPolygon.
      * Area = (1/4) * edge * (length^2) * cot(pi/edge)
      *

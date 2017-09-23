@@ -15,6 +15,15 @@ public class Sphere extends Shape3D {
     }
 
     /**
+     * Return the radius of this sphere.
+     *
+     * @return double
+     */
+    public double getRadius() {
+        return this.radius;
+    }
+
+    /**
      * Return the surface area of the Sphere.
      * Surface area = 4 * (radius^2) * pi
      *
